@@ -1,7 +1,7 @@
 import os
 from signalwire.rest import Client as signalwire_client
 import logging
-#write requests & responses from Twilio to log file, useful for debugging:
+#write requests & responses from SignalWire to log file, useful for debugging:
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)s %(message)s',
                     filename='/usr/local/signalwire/python3/calls/logs/signalwire_calls.log',
